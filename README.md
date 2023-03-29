@@ -20,33 +20,33 @@ The above algorithms were employed and results compared. Recommendations were th
 The models were compared by their balanced accuracy score, precision, and recall. See results below.
 
 ### Oversampling with RandomOverSampling
-*
-*
-*
+* Balanced accuracy score:
+* Precision:
+* Recall:
 
 ### Oversampling with SMOTE
-*
-*
-*
+* Balanced accuracy score:
+* Precision:
+* Recall:
 
 ### Undersampling with ClusterCentroids
-*
-*
-*
+* Balanced accuracy score:
+* Precision:
+* Recall:
 
 ### Combination Sampling with SMOTEEN
-*
-*
-*
+* Balanced accuracy score:
+* Precision:
+* Recall:
 
 ### Reduce Bias with BalancedRandomForestClassifier
-*
-*
-*
+* Balanced accuracy score:
+* Precision:
+* Recall:
 
 ### Reduce Bias with EasyEnsembleClassifier
-*
-*
-*
+* Balanced accuracy score:
+* Precision:
+* Recall:
 
 ## Summary
