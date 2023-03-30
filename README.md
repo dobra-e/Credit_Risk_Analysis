@@ -49,4 +49,16 @@ The models were compared by their balanced accuracy score, precision, and recall
 * Precision: H = 0.07, L = 1.00
 * Recall: H = 0.91, L = 0.94
 
+
 ## Summary
+
+### All Models
+![Screenshot 2023-03-29 at 8 09 14 PM](https://user-images.githubusercontent.com/109118631/228701987-1787f36c-2830-44de-9a93-c9187687ff15.png)
+
+
+### Sampling Models
+Across the four sampling models, the balanced accuracy scores are poor (under 70%). Precision across the models is also very similar. For the high-risk class, precision is 1% and for the low-risk class it is 100%. There is some variation in the recall or sensitivity of the models.  
+
+### Reduced Bias Models
+
+### Recommendation
