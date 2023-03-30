@@ -56,7 +56,7 @@ The models were compared by their balanced accuracy score, precision, and recall
 ![Screenshot 2023-03-29 at 8 09 14 PM](https://user-images.githubusercontent.com/109118631/228701987-1787f36c-2830-44de-9a93-c9187687ff15.png)
 
 #### Sampling Models
-Across the four sampling models, the balanced accuracy scores are poor (under 70%). Precision across the models is very similar. For the high-risk class, precision is 1% and for the low-risk class it is 100%. There is some variation in the recall or sensitivity of the models. The oversampling models show higher recall with the low-risk class compared to the high-risk class. For opposite is true for the undersampling and combination models; there is higher recall for the high-risk class. The F1 measure, which takes into account precision and recall, is highest for the RandomOverSampling model.  
+Across the four sampling models, the balanced accuracy scores are poor (under 70%). Precision across the models is very similar. For the high-risk class, precision is 1% and for the low-risk class it is 100%. There is some variation in the recall or sensitivity of the models. The oversampling models show higher recall with the low-risk class compared to the high-risk class. The opposite is true for the undersampling and combination models; there is higher recall for the high-risk class. The F1 measure, which takes into account precision and recall, is highest for the RandomOverSampling model.  
 
 #### Reduced Bias Models
 The reduced bias models performed better overall. Both balanced accuracy scores are higher than 70% with the EasyEnsembleClassifier model approaching 93%. The precision and recall, and thereofore the F1, are generally higher for these models as well. 
